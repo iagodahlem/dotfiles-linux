@@ -1,6 +1,6 @@
-for file in "$DOTFILES"/extensions/remote/zsh/.{exports,aliases,functions}; do
+for file in "$DOTFILESREMOTE_ZSH/.{exports,aliases,functions}"; do
   [ -r "$file" ] && source "$file"
 done
 unset file
 
-source "$DOTFILES"/extensions/remote/linuxbrew/.linuxbrew
+source "$DOTFILES_REMOTE/brew/.brew"
