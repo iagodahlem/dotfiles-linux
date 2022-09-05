@@ -16,8 +16,8 @@ SPACESHIP_PROMPT_SEPARATE_LINE=false
 SPACESHIP_RUBY_SHOW=false
 
 # config
-export DOTFILES_REMOTE="$DOTFILES/extensions/dotfiles-remote"
-export DOTFILES_REMOTE_ZSH="$DOTFILES_REMOTE/zsh"
+export DOTFILES_LINUX="$DOTFILES/extensions/dotfiles-linux"
+export DOTFILES_LINUX_ZSH="$DOTFILES_LINUX/zsh"
 
 # bootstrap
-source "$DOTFILES_REMOTE_ZSH/.bootstrap"
+source "$DOTFILES_LINUX_ZSH/.bootstrap"

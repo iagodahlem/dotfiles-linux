@@ -1,4 +1,4 @@
-for FILE in $DOTFILES_REMOTE_ZSH/.{exports,aliases,functions}; do
+for FILE in $DOTFILES_LINUX_ZSH/.{exports,aliases,functions}; do
   [ -r "$FILE" ] && source "$FILE"
 done
 unset FILE
