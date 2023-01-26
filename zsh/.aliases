@@ -8,7 +8,14 @@ alias update="sudo apt update -y"
 alias upgrade="sudo apt upgrade"
 alias autoclean="sudo apt auto-clean"
 alias autoremove="sudo apt auto-remove"
-
 alias i="install"
 alias up="update && upgrade"
 alias cleanup="autoclean && autoremove"
+
+# cli tools
+alias cat="bat"
+alias df="duf"
+alias ls="exa -G"
+alias top="bpytop"
+alias htop="bpytop"
+alias ps="procs"
