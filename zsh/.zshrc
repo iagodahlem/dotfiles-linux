@@ -7,6 +7,3 @@ export DOTFILES_LINUX_ZSH="$DOTFILES_LINUX/zsh"
 
 # spaceship
 export SPACESHIP_CONFIG="$DOTFILES_LINUX/spaceship/spaceship.zsh"
-
-# bootstrap
-source "$DOTFILES_LINUX_ZSH/.bootstrap"
