@@ -1,5 +1,5 @@
 # zsh configuration
-ZSH_THEME="spaceship"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # config
 export DOTFILES_LINUX="$DOTFILES/extensions/dotfiles-linux"
