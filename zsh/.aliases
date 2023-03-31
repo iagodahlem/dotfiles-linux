@@ -15,7 +15,7 @@ alias cleanup="autoclean && autoremove"
 # cli tools
 alias cat="bat"
 alias df="duf"
-alias ls="exa -1 --icons"
+alias ls="exa --icons"
 alias la="ls -lah"
 alias top="btop"
 alias ps="procs"
